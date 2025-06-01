@@ -12,5 +12,6 @@ dependencies = [
     "openai>=1.82.0",
     "openai-whisper>=20240930",
     "pyaudio>=0.2.14",
+    "rich>=14.0.0",
     "yt-dlp>=2025.5.22",
 ]
