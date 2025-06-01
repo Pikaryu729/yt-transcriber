@@ -18,4 +18,5 @@ def summarize(text: str, config: dict):
         ],
         stream=False,
     )
+    print("Successfully Summarized text")
     return response.choices[0].message.content

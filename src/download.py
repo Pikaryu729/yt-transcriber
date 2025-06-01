@@ -19,6 +19,6 @@ def download_youtube_audio(url, audio_dir: Path):
     try:
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
             ydl.download([url])
-        return "Successfully downloaded audio file"
+        print("Successfully downloaded audio file")
     except Exception as e:
-        return f"Unexpected error {e}"
+        print(f"Unexpected error {e}")
