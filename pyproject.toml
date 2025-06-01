@@ -1,11 +1,13 @@
 [project]
-name = "speech-to-text"
+name = "yt-transcriber"
 version = "0.1.0"
-description = "Add your description here"
+description = "A tool for downloading, transcribing, and summarizing yt videos"
+authors = [{name = "Ryu", email = "ryushin.wells@gmail.com"}]
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "black>=25.1.0",
+    "build>=1.2.2.post1",
     "dotenv>=0.9.9",
     "ffmpeg>=1.4",
     "matplotlib>=3.10.3",
@@ -13,5 +15,6 @@ dependencies = [
     "openai-whisper>=20240930",
     "pyaudio>=0.2.14",
     "rich>=14.0.0",
+    "twine>=6.1.0",
     "yt-dlp>=2025.5.22",
 ]
